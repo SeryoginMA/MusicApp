@@ -1,0 +1,368 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E8E110326C8498500C66080 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E110226C8498500C66080 /* AppDelegate.swift */; };
+		7E8E110526C8498500C66080 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E110426C8498500C66080 /* SceneDelegate.swift */; };
+		7E8E110A26C8498500C66080 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8E110826C8498500C66080 /* Main.storyboard */; };
+		7E8E110C26C8498700C66080 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E8E110B26C8498700C66080 /* Assets.xcassets */; };
+		7E8E110F26C8498700C66080 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E8E110D26C8498700C66080 /* LaunchScreen.storyboard */; };
+		7E8E111726C849BA00C66080 /* AlbumListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E111626C849BA00C66080 /* AlbumListViewController.swift */; };
+		7E8E111B26C84A4300C66080 /* AlbumCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E111926C84A4300C66080 /* AlbumCell.swift */; };
+		7E8E111C26C84A4300C66080 /* AlbumCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7E8E111A26C84A4300C66080 /* AlbumCell.xib */; };
+		7E8E111E26C84AF200C66080 /* AlbumInformationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E8E111D26C84AF200C66080 /* AlbumInformationViewController.swift */; };
+		7EEF748326CE7B9F00400741 /* ApiResponce.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EEF748226CE7B9F00400741 /* ApiResponce.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7E8E10FF26C8498500C66080 /* MusicAppForHedgehog.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicAppForHedgehog.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E8E110226C8498500C66080 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E8E110426C8498500C66080 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7E8E110926C8498500C66080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E8E110B26C8498700C66080 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7E8E110E26C8498700C66080 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E8E111026C8498700C66080 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E8E111626C849BA00C66080 /* AlbumListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumListViewController.swift; sourceTree = "<group>"; };
+		7E8E111926C84A4300C66080 /* AlbumCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumCell.swift; sourceTree = "<group>"; };
+		7E8E111A26C84A4300C66080 /* AlbumCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlbumCell.xib; sourceTree = "<group>"; };
+		7E8E111D26C84AF200C66080 /* AlbumInformationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumInformationViewController.swift; sourceTree = "<group>"; };
+		7EEF748226CE7B9F00400741 /* ApiResponce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponce.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E8E10FC26C8498500C66080 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E8E10F626C8498500C66080 = {
+			isa = PBXGroup;
+			children = (
+				7E8E110126C8498500C66080 /* MusicAppForHedgehog */,
+				7E8E110026C8498500C66080 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E8E110026C8498500C66080 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E8E10FF26C8498500C66080 /* MusicAppForHedgehog.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E8E110126C8498500C66080 /* MusicAppForHedgehog */ = {
+			isa = PBXGroup;
+			children = (
+				7E8E111826C849F900C66080 /* Cells */,
+				7E8E110226C8498500C66080 /* AppDelegate.swift */,
+				7E8E110426C8498500C66080 /* SceneDelegate.swift */,
+				7E8E110826C8498500C66080 /* Main.storyboard */,
+				7E8E110B26C8498700C66080 /* Assets.xcassets */,
+				7E8E110D26C8498700C66080 /* LaunchScreen.storyboard */,
+				7E8E111026C8498700C66080 /* Info.plist */,
+				7E8E111626C849BA00C66080 /* AlbumListViewController.swift */,
+				7E8E111D26C84AF200C66080 /* AlbumInformationViewController.swift */,
+				7EEF748226CE7B9F00400741 /* ApiResponce.swift */,
+			);
+			path = MusicAppForHedgehog;
+			sourceTree = "<group>";
+		};
+		7E8E111826C849F900C66080 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				7E8E111926C84A4300C66080 /* AlbumCell.swift */,
+				7E8E111A26C84A4300C66080 /* AlbumCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E8E10FE26C8498500C66080 /* MusicAppForHedgehog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E8E111326C8498700C66080 /* Build configuration list for PBXNativeTarget "MusicAppForHedgehog" */;
+			buildPhases = (
+				7E8E10FB26C8498500C66080 /* Sources */,
+				7E8E10FC26C8498500C66080 /* Frameworks */,
+				7E8E10FD26C8498500C66080 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicAppForHedgehog;
+			productName = MusicAppForHedgehog;
+			productReference = 7E8E10FF26C8498500C66080 /* MusicAppForHedgehog.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E8E10F726C8498500C66080 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7E8E10FE26C8498500C66080 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 7E8E10FA26C8498500C66080 /* Build configuration list for PBXProject "MusicAppForHedgehog" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E8E10F626C8498500C66080;
+			productRefGroup = 7E8E110026C8498500C66080 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E8E10FE26C8498500C66080 /* MusicAppForHedgehog */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E8E10FD26C8498500C66080 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8E110F26C8498700C66080 /* LaunchScreen.storyboard in Resources */,
+				7E8E110C26C8498700C66080 /* Assets.xcassets in Resources */,
+				7E8E110A26C8498500C66080 /* Main.storyboard in Resources */,
+				7E8E111C26C84A4300C66080 /* AlbumCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E8E10FB26C8498500C66080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E8E111726C849BA00C66080 /* AlbumListViewController.swift in Sources */,
+				7EEF748326CE7B9F00400741 /* ApiResponce.swift in Sources */,
+				7E8E111B26C84A4300C66080 /* AlbumCell.swift in Sources */,
+				7E8E110326C8498500C66080 /* AppDelegate.swift in Sources */,
+				7E8E110526C8498500C66080 /* SceneDelegate.swift in Sources */,
+				7E8E111E26C84AF200C66080 /* AlbumInformationViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7E8E110826C8498500C66080 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E8E110926C8498500C66080 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E8E110D26C8498700C66080 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E8E110E26C8498700C66080 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E8E111126C8498700C66080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7E8E111226C8498700C66080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E8E111426C8498700C66080 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MusicAppForHedgehog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = misha.MusicAppForHedgehog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E8E111526C8498700C66080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = MusicAppForHedgehog/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = misha.MusicAppForHedgehog;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E8E10FA26C8498500C66080 /* Build configuration list for PBXProject "MusicAppForHedgehog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8E111126C8498700C66080 /* Debug */,
+				7E8E111226C8498700C66080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E8E111326C8498700C66080 /* Build configuration list for PBXNativeTarget "MusicAppForHedgehog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E8E111426C8498700C66080 /* Debug */,
+				7E8E111526C8498700C66080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E8E10F726C8498500C66080 /* Project object */;
+}
